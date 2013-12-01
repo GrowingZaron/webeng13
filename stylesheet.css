@@ -21,11 +21,9 @@ h1 {
 	border: 5px solid #4169e1;
 	border-radius: 5px;
 	width: 100%;
-	height: min;
 	margin-top: -20px;
 	margin-left: -8px;
 	z-index: 1;
-	padding: auto;
 }
 
 
