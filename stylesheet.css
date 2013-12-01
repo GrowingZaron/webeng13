@@ -2,8 +2,8 @@
 
 /*alles*/
 body {
-	background-color: #ecd3b7;
-	color: #291806;
+	background-color: white;
+	color: #000080;
 	font-family: Arimo, Arial, sans-serif;
 }
 
@@ -12,25 +12,22 @@ h1 {
 	font-size: 40px;
 	text-align: center;
 }
+
+
 /*Feld um die Überschrift herum*/
 #h1 {
 	position: fixed;
-	display: inline-block;
-	background-color: #6d9866;
+	background-color: #ffebcd;
+	border: 5px solid #4169e1;
 	border-radius: 5px;
 	width: 100%;
-	height: 90px;
+	height: min;
 	margin-top: -20px;
 	margin-left: -8px;
+	z-index: 1;
+	padding: auto;
 }
 
-/*Feld um die Tabelle herum, dunkelgrün, und alles darin
-#table {
-	background-color: #6d9866;
-	border-radius: 5px;
-	padding: 15px;
-	margin: auto;
-}*/
 
 #tableheading {
 	font-size: 30px;
@@ -38,15 +35,15 @@ h1 {
 
 
 table {
-	border: solid 4px #ecd3b7;
+	border: solid 4px white;
 	text-align: center;
 	margin: auto;
 	padding: 10px;
-	padding-top: 80px;
+	padding-top: 140px;
 }
 
 thead {
-	background-color: #e07e16;
+	background-color: #6495ed;
 }
 
 /*Spalte mit Beschreibung*/
@@ -57,17 +54,11 @@ thead {
 }
 /*abwechselnde Zeilen*/
 .tr1 {
-	background-color: #e7ac6a;
+	background-color: #ffebcd;
 }
 
-p {
-	margin: 50px;
-	font-family: cursive;
-	font-size: 8px;
-	text-align: center;
-}
 .tr2 {
-	background-color: #e09e55;
+	background-color: #ffe4c4;
 }
 
 /* grünes Feld für semantisch*/
@@ -79,4 +70,11 @@ p {
 .semr {
 	background-color: red;
 	color: red;
+}
+
+p {
+	margin: 50px;
+	font-family: cursive;
+	font-size: 8px;
+	text-align: center;
 }
