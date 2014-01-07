@@ -25,7 +25,11 @@ h1 {
 	z-index: 1;
 }
 
+<<<<<<< HEAD
 /*Tabelle*/
+=======
+
+>>>>>>> 5ca4c9133fd8e2c12949f0a1f4320959fd81fede
 #tableheading {
 	font-size: 30px;
 }
@@ -74,4 +78,8 @@ p {
 	font-family: cursive;
 	font-size: 8px;
 	text-align: center;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5ca4c9133fd8e2c12949f0a1f4320959fd81fede
